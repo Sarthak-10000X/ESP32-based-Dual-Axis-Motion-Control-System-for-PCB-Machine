@@ -1,2 +1,7 @@
 # ESP32-based-Dual-Axis-Motion-Control-System-for-PCB-Machine
 This project implements a dual-axis motion control system for a PCB machine using the ESP32 microcontroller and TMC2209 stepper motor drivers. It is designed to deliver smooth, precise and low-noise motion through advanced micro-stepping making it suitable for PCB plotting or light CNC applications.
+
+I have choosen the TMC2209 Stepper motor driver because it provides smooth and silent operations using microstepping. It is a 2 phase stepper motor upto 2.8A peak current, 2A RMS. STEP/DIR Interface with 8,16,32 or 64 microstep pin setting. StealthMode2 that is Silent Motor Operation and Smooth Running 256 Microsteps by MicroPlayer interpolation. Additionally, it's UART Interface allows advanced control and tuning making it more suitable for traditional stepper drivers like A4988 or DRV8825.
+
+Heat dissipation is handled using heatsink on the TMC2209 drivers. Each TMC2209 can be equipped with a small aluminum heatsink to dissipate heat generated during operation. Motor current can be properly set via UART to prevent overheating at the source. Use of large copper area helps to spread heat away from the driver.
+Power routing is designed with seperate motor, where a 24V supplies the motor drivers and a buck converter provides 5V for the ESP32 and logic pins. Bulk Capacitor are placed across Vm and GND to absorb volatge spikes, while ceramic capacitors ensure stable and high frequency logic voltage. Common grounding used to ensure system stability.

@@ -42,8 +42,6 @@ The first week focused on understanding the PCB prototyping workflow, evaluating
 - Established the technical motivation for developing an automated PCB prototyping machine.
 
 ## Next Steps
-
-- Complete the functional breadboard prototype of the clap-switch circuit.
 - Begin the study and implementation of FluidNC firmware for machine control.
 - Investigate motion control hardware requirements for the PCB prototyping machine.
-- Initiate the design and development of the machine's mechanical and control architecture.
+

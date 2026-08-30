@@ -1,0 +1,52 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Description
+"C1,C2",2,22pF,,,,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,,Unpolarized capacitor
+"C3,C4,C5,C6,C7",5,100nF,,,,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,,Unpolarized capacitor
+"C8,C9,C10,C11",4,100uF,,,,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,,Polarized capacitor
+C12,1,C_Polarized,,,,Capacitor_THT:CP_Radial_D10.0mm_P3.50mm,,Polarized capacitor
+D1,1,D_Schottky,,,,Diode_THT:D_DO-201AD_P15.24mm_Horizontal,,Schottky diode
+F1,1,Fuse,,,,Fuse:Fuse_1812_4532Metric,,Fuse
+J1,1,X_limitswitch,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+J2,1,Y_limitswitch,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+J3,1,X_nema17,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated"
+J4,1,Y_nema17,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated"
+J5,1,Z_nema17,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated"
+J6,1,Z_limitswitch,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+J7,1,Laser,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,"Generic connector, single row, 01x03, script generated"
+J8,1,Pump,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+J9,1,X_tmc2209,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J10,1,Y_tmc2209,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J11,1,Z_tmc2209,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J12,1,ISP,,,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J13,1,USB_C_Receptacle_USB2.0_16P,,,,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB 2.0-only 16P Type-C Receptacle connector
+J14,1,XL4015_IN,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+J15,1,XL4015_OUT,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+Q1,1,IRLZ44N,,,,Package_TO_SOT_THT:TO-220-3_Vertical,http://www.irf.com/product-info/datasheets/data/irlz44n.pdf,"47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+"R1,R2,R3",3,10k,,,,Resistor_SMD:R_0603_1608Metric,,"Resistor, US symbol"
+"R4,R5",2,5.1k,,,,Resistor_SMD:R_0603_1608Metric,,"Resistor, US symbol"
+U1,1,ATmega328-P,,,,Package_DIP:DIP-28_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf,"20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+U2,1,CH340C,,,,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf,"USB serial converter, crystal-less, UART, SOIC-16"
+Y1,1,Crystal,,,,Crystal:Crystal_HC49-4H_Vertical,,Two pin crystal
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Material To Scrap or get from other source,,,,,,,,
+,,,,,,,,
+U2,1,CH340C,,,,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf,"USB serial converter, crystal-less, UART, SOIC-16"
+TVS diode                        1                             ,,,,,,,,
+"C8,C9,C10,C11",4,100uF,,,,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,,Polarized capacitor
+,,,,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,"Generic connector, single row, 01x03, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,
+Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,
+,,,,,,,,
+Some of the Connection header pins we can get.,,,,,,,,
+,,,,,,,,
+Y1,1,Crystal,,,,Crystal:Crystal_HC49-4H_Vertical,,Two pin crystal
